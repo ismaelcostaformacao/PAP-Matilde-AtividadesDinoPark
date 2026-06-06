@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passaporte Jurássico – Mapa do Parque</title>
+    <meta name="description" content="Mapa interativo do Dino Parque Lourinhã. Explore os percursos do Passaporte Jurássico.">
+    <link rel="shortcut icon" href="../img/LogoESCO.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<header>
+    <a href="../index.html">
+        <img class="logotipo" src="../img/LogoDinoParque3.png" alt="Logo DinoParque">
+    </a>
+    <h1 class="titulo Oswald">Passaporte Jurássico</h1>
+</header>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img class="logotipo-menu" src="../img/LogoDinoParque3.png" alt="Logo menu">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Abrir navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../index.html">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html#sobremim">Sobre Mim</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html#escola">Escola</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html#entidade">Entidade</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html#projeto">Projeto</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Ações
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#atividade1">Apresentação do Projeto à entidade</a></li>
+            <li><a class="dropdown-item" href="#atividade2">Estabelecimento de Parcerias</a></li>
+            <li><a class="dropdown-item" href="#atividade3">Análise de Informação e construção de jogos/atividades</a></li>
+            <li><a class="dropdown-item" href="#atividade4">Divulgação do Projeto a entidades de apoio a seniores</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#atividade5">Dinamização do projeto com o Público-Alvo</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#atividade6">Avaliação com o público-alvo – seniores participantes</a></li>
+            <li><a class="dropdown-item" href="#atividade7">Avaliação com a entidades de apoio a seniores participantes</a></li>
+            <li><a class="dropdown-item" href="#atividade8">Avaliação com a entidade</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Mapa interativo -->
+<div class="mapa-container mt-4">
+  <img src="../img/mapa-dino-2025 (1).png" usemap="#mapa-dinopark1" alt="Mapa DinoPark" style="width: 900px; max-width: 100%; height: auto;">
+</div>
+
+<div class="botao-inscricao text-center mt-4 mb-5 px-3">
+  <a href="https://forms.gle/XFPLZJtF6BLykbgj7" target="_blank" rel="noopener noreferrer"
+     class="btn btn-primary btn-lg w-100" style="max-width: 500px;">
+    Reserve aqui o seu lugar nesta aventura!
+  </a>
+</div>
+
+<map name="mapa-dinopark1">
+  <area shape="circle" coords="500,400,30" alt="Pavilhão atividades" href="./pavilhão_atividades.html" >
+  <area shape="circle" coords="590,400,50" alt="Bilheteira" href="./bilheteira.html" >
+  <area shape="circle" coords="410,275,20" alt="1- Percurso Paleozoico" href="./percurso_1.html" >
+  <area shape="circle" coords="375,200,20" alt="2-Triásico" href="./percurso_2.html" >
+  <area shape="circle" coords="465,275,20" alt="3-Jurássico" href="./percurso_3.html" >
+  <area shape="circle" coords="505,275,20" alt="4-Cretácio" href="./percurso_4.html" >
+  <area shape="circle" coords="600,280,20" alt="5-MonstrosMarinhos" href="./percurso_5.html" >
+  <area shape="circle" coords="380,350,20" alt="6-CenozoicoIdadedogelo" href="./percurso_6.html" >
+</map>
+
+<!-- Aviso de mapa em mobile -->
+<p class="text-center text-muted small px-3 mb-4 d-block d-md-none">
+  💡 Em ecrãs pequenos, use o zoom do navegador para clicar nas zonas do mapa.
+</p>
+
+
+</body>
+
+<footer>
+Desenvolvido por: Matilde Jesus Matos. 2026 TIC-M3 ESCO
+</footer>
+
+</html>
