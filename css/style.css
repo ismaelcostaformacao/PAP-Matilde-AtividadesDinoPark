@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+ 
+ .logotipo{
+    width: 300px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 100px 100px 5px 5px;
+    margin-top: 10px;
+}
+
+.logotipo-menu{
+    width: 70px;
+   
+}
+
+
+header{
+    text-align: center; background-color: rgb(253, 253, 253);
+}
+
+.titulo{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    margin-top: -5px;
+    text-shadow: 2px 2px 7px color black;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    }
+
+.card img{
+    width: 100%;
+}
+
+.card{
+    text-align: center;
+    padding: 100px
+}
+
+.card-body{
+    text-align: left;
+}
+
+
+footer{
+
+    text-align: center;
+    background-color: #eaba63;
+    padding: 50px;
+}
